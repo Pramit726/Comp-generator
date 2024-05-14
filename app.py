@@ -9,11 +9,9 @@ from src.compgenerator.exception import CustomException
 
 try:
     # Load response JSON
-    path_absolute = Path("./")
-    path_relative = Path("response.json")
-    full_path = path_absolute / path_relative
+    path = Path("response.json")
 
-    with open(full_path, 'r') as f:
+    with open(path, 'r') as f:
         RESPONSE_JSON = json.load(f)
 
     # Set page title
@@ -78,5 +76,7 @@ try:
 except Exception as e:
     # Log the exception
     logging.info(e)
+    # Error message to show in app
+    st.header("Error 💥 try 💫 reloading the app!")
     # Raise custom exception
     raise CustomException(e, sys)
