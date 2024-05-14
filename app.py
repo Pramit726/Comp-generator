@@ -80,3 +80,43 @@ except Exception as e:
     st.header("Error 💥 try 💫 reloading the app!")
     # Raise custom exception
     raise CustomException(e, sys)
+
+
+footer = """
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+a:link , a:visited {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:hover, a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F0F0F0;;
+    color: black;
+    text-align: left;
+    padding:5px; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+.footer p {
+    font-weight: bold;
+}
+</style>
+<div class="footer">
+<p>Curiosity ignited by AI 🚀: Your questions 🤔, our creation 🎨 - Crafted by <a href="https://github.com/Pramit726" target="_blank">Pramit De</a></p>
+</div>
+"""
+
+st.markdown(footer, unsafe_allow_html=True)
