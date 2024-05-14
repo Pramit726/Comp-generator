@@ -6,8 +6,6 @@ import os
 from langchain_core.prompts.prompt import PromptTemplate
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.output_parsers import StrOutputParser
-import json
-from pathlib import Path
 from operator import itemgetter
 
 try:
@@ -20,16 +18,7 @@ try:
     os.environ["LANGCHAIN_TRACING_V2"] = "true"
     os.environ["LANGCHAIN_API_KEY"] = os.getenv("LANGCHAIN_API_KEY")
 
-    llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro-latest", temperature=0.1)  # Creating ChatGoogleGenerativeAI instance
-
-    # Defining paths for input and output files
-    path_absolute = Path("E:\Learnings\Comprehension-generator")
-    path_relative = Path("response.json")
-    full_path = path_absolute / path_relative
-
-    # Loading JSON data from response.json file
-    with open(full_path, 'r') as f:
-        RESPONSE_JSON = json.load(f)
+    llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro-latest", temperature=0.5)  # Creating ChatGoogleGenerativeAI instance
 
     # Template for generating comprehension instructions
     generate_instruction = """
