@@ -15,7 +15,7 @@ try:
         RESPONSE_JSON = json.load(f)
 
     # Set page title
-    st.title("Comprehension Generator ")
+    st.title("CompreHive 📝 ")
     st.markdown("**Generate comprehension and questions effortlessly!** ✨")
 
     # User input form
