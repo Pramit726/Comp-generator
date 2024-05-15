@@ -214,6 +214,7 @@ nohup python3 -m streamlit run app.py
 <!-- DEPENDENCIES -->
 ## Dependencies
 
+- langchain
 - langchain-core
 - langchain-google-genai
 - python-dotenv
