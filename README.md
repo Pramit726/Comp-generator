@@ -45,8 +45,8 @@ https://github.com/Pramit726/CompreHive/assets/149934842/f8f97d28-bc17-470a-956c
 
 This project requires two API keys:
 
-- Google GEMINI API key: Required for accessing the GEMINI 1.5 Pro model.
-- LangChain API key: Required for LangSmith tracking.
+- **Google GEMINI API key:** Required for accessing the GEMINI 1.5 Pro model.
+- **LangChain API key:** Required for LangSmith tracking.
 
 Ensure that you obtain these API keys before running the project.
 
@@ -184,6 +184,14 @@ nohup python3 -m streamlit run app.py
 ```
 
 Note: Streamlit runs on this port: 8501
+
+## Dependencies
+
+- langchain-core
+- langchain-google-genai
+- python-dotenv
+- reportlab
+- streamlit
 
 
 
