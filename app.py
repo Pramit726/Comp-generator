@@ -115,7 +115,7 @@ a:hover, a:active {
 }
 </style>
 <div class="footer">
-<p>Curiosity ignited by AI 🚀: Your questions 🤔, our creation 🎨 - Crafted by <a href="https://github.com/Pramit726" target="_blank">Pramit De</a></p>
+<p>Curiosity ignited by AI 🚀: Your questions 🤔, our creation 🎨 - Crafted by Team CompreHive</p>
 </div>
 """
 
