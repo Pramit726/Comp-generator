@@ -50,6 +50,51 @@ This project requires two API keys:
 
 Ensure that you obtain these API keys before running the project.
 
+## Project Setup
+
+**Clone this github repository**
+
+```bash
+  (base)$: git clone https://github.com/Pramit726/CompreHive.git
+```
+
+**Go to the project directory**
+
+```bash
+  (base)$: cd CompreHive
+```
+
+**Configure environment**
+
+- Create the conda environment
+
+```bash
+(base)$: conda  create -p venv python==3.10 -y
+```
+
+- Activate the environment
+
+```bash
+(base)$: conda activate venv
+```
+- Install the required dependencies
+
+```bash
+
+ (venv)$: pip install -r requirements.txt
+```
+**Run it**
+
+```bash
+(venv)$: streamlit run app.py
+```
+
+As soon as you run the script, a local Streamlit server will spin up, and your app will open in a new tab in your default web browser.
+
+Or you can navigate to ``http://localhost:8501.``
+
+
+
 
 
 
