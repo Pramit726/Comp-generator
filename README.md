@@ -1,3 +1,23 @@
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="https://github.com/Pramit726/CompreHive/assets/149934842/3eb0f353-87c9-4e52-a704-f5c6ff587140" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">CompreHive</h3>
+
+  <p align="center">
+    Enhance understanding effortlessly with customized reading passages and questions
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    ·
+    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+  </p>
+</div>
+
 <p align="center" style="font-family: Roboto;">
   <!-- ![CompreHive logo](https://github.com/Pramit726/CompreHive/assets/149934842/3eb0f353-87c9-4e52-a704-f5c6ff587140) -->
   <img src="https://github.com/Pramit726/CompreHive/assets/149934842/3eb0f353-87c9-4e52-a704-f5c6ff587140" />
