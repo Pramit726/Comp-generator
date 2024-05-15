@@ -1,4 +1,4 @@
-
+<a id="top"></a>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -227,7 +227,13 @@ nohup python3 -m streamlit run app.py
 - <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Gmail-Dark.svg" alt="Email" width="20"/> pramitde726@gmail.com / pramit.de.cse.2021@tint.edu.in
 - Department of CSE, Techno International New Town, West Bengal, India
 
-© 2024 CompreHive by Pramit De
+© 2024 CompreHive, crafted by Pramit De
+
+[Back to Top](#top)
+
+
+
+
 
 
 
