@@ -79,5 +79,5 @@ try:
     )
 
 except Exception as e:
-    logging.info(e)   # Logging the exception
+    logging.info(e)  # Logging the exception
     raise CustomException(e, sys)  # Raising CustomException 
