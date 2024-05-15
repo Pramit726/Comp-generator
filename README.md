@@ -17,7 +17,6 @@
   </p>
 </div>
 
-<!--Demo video -->
 
 ## Project Overview
 
@@ -32,13 +31,26 @@ Deployed on Amazon Web Services (AWS), the application offers easy access and ut
 
 **App Recording:**
 
-**Text file screenshot:**
+https://github.com/Pramit726/CompreHive/assets/149934842/f8f97d28-bc17-470a-956c-5887d69fd2d7
+
+**Text File Screenshot:**
+
+![App Screenshot](https://github.com/Pramit726/CompreHive/assets/149934842/8acc6b76-40f8-4137-9b74-9413ea2af5de)
+
+**Pdf File Scrennshot:**
+
+![App Screenshot](https://github.com/Pramit726/CompreHive/assets/149934842/fa5c1253-155c-4dbb-b499-032628fe7cab)
+
+## Required API Keys
+
+This project requires two API keys:
+
+- Google GEMINI API key: Required for accessing the GEMINI 1.5 Pro model.
+- LangChain API key: Required for LangSmith tracking.
+
+Ensure that you obtain these API keys before running the project.
 
 
-![App Screenshot](https://github.com/Pramit726/CompreHive/assets/149934842/d55563be-29e5-43cc-b4f8-d969aba0620c)
 
-**Pdf file scrennshot:**
-
-![App Screenshot](https://github.com/Pramit726/CompreHive/assets/149934842/7af17fdc-2a6b-4fc1-9052-ef84cff32689)
 
 
