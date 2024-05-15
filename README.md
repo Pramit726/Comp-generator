@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -10,13 +12,24 @@
     <br />
     <a href="https://github.com/Pramit726/CompreHive/assets/149934842/43ef4642-55e9-4be0-9dff-14684bee0c43">View Demo</a>
     ·
-    <a href="">Report Bug</a>
+    <a href="https://github.com/Pramit726/CompreHive/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="">Request Feature</a>
+    <a href="https://github.com/Pramit726/CompreHive/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
 
+1. [Project Overview](#project-overview)
+2. [Project Demo](#project-demo)
+3. [Required API Keys](#required-api-keys)
+4. [Project Setup](#project-setup)
+5. [Deployment on AWS](#deployment-on-aws)
+6. [Dependencies](#dependencies)
+7. [Author](#author)
+
+<!-- PROJECT OVERVIEW -->
 ## Project Overview
 
 <div align="justify"> 
@@ -33,7 +46,7 @@ The application incorporates robust logging and exception handling mechanisms to
 Deployed on Amazon Web Services (AWS), the application offers easy access and utilization for users. AWS also ensures scalability, allowing the application to handle varying user loads seamlessly. 
 </div>
 
-
+<!-- PROJECT DEMO -->
 ## Project Demo
 
 - **App Recording**
@@ -55,6 +68,7 @@ https://github.com/Pramit726/CompreHive/assets/149934842/5dea4867-17dd-4d1f-842b
 <!-- ![App Screenshot](https://github.com/Pramit726/CompreHive/assets/149934842/fa5c1253-155c-4dbb-b499-032628fe7cab)--> 
 <img src="https://github.com/Pramit726/CompreHive/assets/149934842/fa5c1253-155c-4dbb-b499-032628fe7cab" alt="PDF-screenshot" width="500" height="874">
 
+<!-- REQUIRED API KEYS -->
 ## Required API Keys
 
 This project requires two API keys:
@@ -64,6 +78,7 @@ This project requires two API keys:
 
 Ensure that you obtain these API keys before running the project.
 
+<!-- PROJECT SETUP -->
 ## Project Setup
 
 **Clone this GitHub repository**
@@ -106,6 +121,7 @@ As soon as you run the script, a local Streamlit server will spin up, and your a
 
 Or you can navigate to ``http://localhost:8501.``
 
+<!-- DEPLOYMENT ON AWS-->
 ## Deployment on AWS
 
 **Step 1**
@@ -195,22 +211,38 @@ python3 -m streamlit run app.py
 #Permanent running
 nohup python3 -m streamlit run app.py
 ```
-
+<!-- DEPENDENCIES -->
 ## Dependencies
 
+- langchain
 - langchain-core
 - langchain-google-genai
 - python-dotenv
 - reportlab
 - streamlit
 
+<!-- AUTHOR -->
 ## Author
+**Pramit De**
+- <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" alt="GitHub" width="20"/> [Pramit726](https://github.com/Pramit726)
+- <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Gmail-Dark.svg" alt="Email" width="20"/> pramitde726@gmail.com / pramit.de.cse.2021@tint.edu.in
+- Department of CSE, Techno International New Town, West Bengal, India
 
- **[Pramit De](https://github.com/Pramit726)**  
- - pramitde726@gmail.com / pramit.de.cse.2021@tint.edu.in 
+© 2024 CompreHive, crafted by Pramit De
 
-- Department of CSE, Techno International New Town, West Bengal, India 
-© 2024 CompreHive by Pramit De 
+<p align="right">
+    <a href="#top">Back to Top</a>
+</p>
+
+
+
+
+
+
+
+
+
+
 
 
 
