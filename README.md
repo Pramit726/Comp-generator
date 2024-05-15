@@ -222,19 +222,17 @@ nohup python3 -m streamlit run app.py
 
 <!-- AUTHOR -->
 ## Author
-
-## Author
-
 **Pramit De**
-- [![GitHub][github-icon]][github-url] [Pramit726][github-url]
-- ![Email][email-icon] pramitde726@gmail.com / pramit.de.cse.2021@tint.edu.in
+- <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Github-Dark.svg" alt="GitHub" width="20"/> [Pramit726](https://github.com/Pramit726)
+- <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Gmail-Dark.svg" alt="Email" width="20"/> pramitde726@gmail.com / pramit.de.cse.2021@tint.edu.in
 - Department of CSE, Techno International New Town, West Bengal, India
 
-[github-icon]: https://image.flaticon.com/icons/png/512/25/25231.png
-[github-url]: https://github.com/Pramit726
-[email-icon]: https://image.flaticon.com/icons/png/512/893/893251.png
-
 © 2024 CompreHive by Pramit De
+
+
+
+
+
 
 
 
