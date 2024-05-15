@@ -12,7 +12,7 @@
     ·
     <a href="https://github.com/Pramit726/CompreHive/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/Pramit726/CompreHive/blob/main/.github/ISSUE_TEMPLATE/feature-request---.md">Request Feature</a>
+    <a href="https://github.com/Pramit726/CompreHive/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
