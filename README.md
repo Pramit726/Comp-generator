@@ -80,8 +80,7 @@ Ensure that you obtain these API keys before running the project.
 - Install the required dependencies
 
 ```bash
-
- (venv)$: pip install -r requirements.txt
+(venv)$: pip install -r requirements.txt
 ```
 **Run it**
 
