@@ -94,6 +94,99 @@ As soon as you run the script, a local Streamlit server will spin up, and your a
 Or you can navigate to ``http://localhost:8501.``
 
 
+## Deployment on AWS
+
+**Step 1 :**
+
+First login to the AWS: https://aws.amazon.com/console/
+
+**Step 2 :**
+
+Search about EC2 in the services section.
+
+**Step 3 :**
+
+Configure the UBUNTU machine.
+
+**Step 4 :**
+
+Launch the instance.
+
+**Step 5:**
+
+Do the port mapping to this port: 8501
+
+**Step 6:**
+
+Run the following commands
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt-get update
+```
+```bash
+sudo apt upgrade -y
+```
+```bash
+sudo apt install git curl unzip tar make sudo vim wget -y
+```
+```bash
+git clone https://github.com/Pramit726/CompreHive.git
+```
+
+```bash
+cd CompreHive
+```
+
+```bash
+sudo apt install python3-pip
+```
+
+```bash
+sudo apt install python3-venv
+```
+
+```bash
+python3 -m venv venv
+```
+
+```bash
+source venv/bin/activate
+```
+
+```bash
+pip3 install -r requirements.txt
+```
+
+**If you want to add the API keys**
+
+- Create .env file in the AWS server using  touch .env.
+
+- Next write vi .env
+
+- Press i 
+
+- Copy API keys and paste it
+
+- Press : ,then wq! and hit enter
+
+```bash
+#Temporary running
+python3 -m streamlit run app.py
+```
+
+```bash
+#Permanent running
+nohup python3 -m streamlit run app.py
+```
+
+Note: Streamlit runs on this port: 8501
+
+
+
 
 
 
