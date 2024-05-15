@@ -229,7 +229,10 @@ nohup python3 -m streamlit run app.py
 
 © 2024 CompreHive, crafted by Pramit De
 
-[Back to Top](#top)
+<p align="right">
+    <a href="#top">Back to Top</a>
+</p>
+
 
 
 
