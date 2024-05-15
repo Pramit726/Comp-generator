@@ -10,7 +10,7 @@
     <br />
     <a href="https://github.com/Pramit726/CompreHive/assets/149934842/43ef4642-55e9-4be0-9dff-14684bee0c43">View Demo</a>
     ·
-    <a href="https://github.com/Pramit726/CompreHive/blob/main/.github/ISSUE_TEMPLATE/bug-report---.md">Report Bug</a>
+    <a href="https://github.com/Pramit726/CompreHive/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
     <a href="https://github.com/Pramit726/CompreHive/blob/main/.github/ISSUE_TEMPLATE/feature-request---.md">Request Feature</a>
   </p>
