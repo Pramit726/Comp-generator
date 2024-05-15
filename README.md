@@ -1,3 +1,5 @@
+
+
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -16,6 +18,7 @@
   </p>
 </div>
 
+<!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
 1. [Project Overview](#project-overview)
@@ -26,7 +29,7 @@
 6. [Dependencies](#dependencies)
 7. [Author](#author)
 
-
+<!-- PROJECT OVERVIEW -->
 ## Project Overview
 
 <div align="justify"> 
@@ -43,7 +46,7 @@ The application incorporates robust logging and exception handling mechanisms to
 Deployed on Amazon Web Services (AWS), the application offers easy access and utilization for users. AWS also ensures scalability, allowing the application to handle varying user loads seamlessly. 
 </div>
 
-
+<!-- PROJECT DEMO -->
 ## Project Demo
 
 - **App Recording**
@@ -65,6 +68,7 @@ https://github.com/Pramit726/CompreHive/assets/149934842/5dea4867-17dd-4d1f-842b
 <!-- ![App Screenshot](https://github.com/Pramit726/CompreHive/assets/149934842/fa5c1253-155c-4dbb-b499-032628fe7cab)--> 
 <img src="https://github.com/Pramit726/CompreHive/assets/149934842/fa5c1253-155c-4dbb-b499-032628fe7cab" alt="PDF-screenshot" width="500" height="874">
 
+<!-- REQUIRED API KEYS -->
 ## Required API Keys
 
 This project requires two API keys:
@@ -74,6 +78,7 @@ This project requires two API keys:
 
 Ensure that you obtain these API keys before running the project.
 
+<!-- PROJECT SETUP -->
 ## Project Setup
 
 **Clone this GitHub repository**
@@ -116,6 +121,7 @@ As soon as you run the script, a local Streamlit server will spin up, and your a
 
 Or you can navigate to ``http://localhost:8501.``
 
+<!-- DEPLOYMENT ON AWS-->
 ## Deployment on AWS
 
 **Step 1**
@@ -205,7 +211,7 @@ python3 -m streamlit run app.py
 #Permanent running
 nohup python3 -m streamlit run app.py
 ```
-
+<!-- DEPENDENCIES -->
 ## Dependencies
 
 - langchain-core
@@ -214,6 +220,7 @@ nohup python3 -m streamlit run app.py
 - reportlab
 - streamlit
 
+<!-- AUTHOR -->
 ## Author
 
  **[Pramit De](https://github.com/Pramit726)**  
