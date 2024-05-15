@@ -1,9 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-    <img src="https://github.com/Pramit726/CompreHive/assets/149934842/3eb0f353-87c9-4e52-a704-f5c6ff587140" alt="Logo" width="80" height="80">
+    <img src="https://github.com/Pramit726/CompreHive/assets/149934842/da9d2975-76c8-4a3f-ac06-4984bc100d82" alt="Logo" width="80" height="80">
   </a>
-
   <h3 align="center">CompreHive</h3>
 
   <p align="center">
@@ -20,39 +19,54 @@
 
 ## Project Overview
 
-This Streamlit application, powered by Google GEMINI 1.5 Pro, generates comprehension exercises based on user input of topics, keywords, and desired question types. Users have the flexibility to specify the number of multiple-choice, short answer, and long answer questions according to their preferences. Moreover, users can conveniently download the generated content in the form of text and PDF files, enhancing accessibility and offline usage.
+<div align="justify"> 
+This Streamlit application, powered by Google GEMINI 1.5 Pro, generates comprehension exercises based on user input of topics, keywords, and desired question types. Users have the flexibility to specify the number of multiple-choice, short-answer, and long-answer questions according to their preferences. Moreover, users can conveniently download the generated content in the form of text and PDF files, enhancing accessibility and offline usage.
+</div>
+</br>
 
+<div align="justify"> 
 The application incorporates robust logging and exception handling mechanisms to ensure smooth operation and error detection. Additionally, a setup module is implemented to streamline the installation process and manage dependencies effectively.
+</div>
+</br>
 
-Deployed on Amazon Web Services (AWS), the application offers easy access and utilization for users. AWS also ensures scalability, allowing the application to handle varying user loads seamlessly.
+<div align="justify"> 
+Deployed on Amazon Web Services (AWS), the application offers easy access and utilization for users. AWS also ensures scalability, allowing the application to handle varying user loads seamlessly. 
+</div>
 
 
 ## Project Demo
 
-**App Recording:**
+- **App Recording**
 
-https://github.com/Pramit726/CompreHive/assets/149934842/43ef4642-55e9-4be0-9dff-14684bee0c43
+https://github.com/Pramit726/CompreHive/assets/149934842/5dea4867-17dd-4d1f-842b-1767732834a4
 
-**Text File Screenshot:**
+<br/>
 
-![App Screenshot](https://github.com/Pramit726/CompreHive/assets/149934842/8acc6b76-40f8-4137-9b74-9413ea2af5de)
+- **Text File Screenshot**
 
-**Pdf File Scrennshot:**
+<!-- ![App Screenshot](https://github.com/Pramit726/CompreHive/assets/149934842/8acc6b76-40f8-4137-9b74-9413ea2af5de) --> 
+<img src="https://github.com/Pramit726/CompreHive/assets/149934842/8acc6b76-40f8-4137-9b74-9413ea2af5de" alt="Text-screenshot" width="500" height="700">
 
-![App Screenshot](https://github.com/Pramit726/CompreHive/assets/149934842/fa5c1253-155c-4dbb-b499-032628fe7cab)
+<br/>
+<br/>
+
+- **PDF File Screenshot**
+
+<!-- ![App Screenshot](https://github.com/Pramit726/CompreHive/assets/149934842/fa5c1253-155c-4dbb-b499-032628fe7cab)--> 
+<img src="https://github.com/Pramit726/CompreHive/assets/149934842/fa5c1253-155c-4dbb-b499-032628fe7cab" alt="PDF-screenshot" width="500" height="874">
 
 ## Required API Keys
 
 This project requires two API keys:
 
-- **Google GEMINI API key:** Required for accessing the GEMINI 1.5 Pro model.
+- **Google API key:** Required for accessing the GEMINI 1.5 Pro model.
 - **LangChain API key:** Required for LangSmith tracking.
 
 Ensure that you obtain these API keys before running the project.
 
 ## Project Setup
 
-**Clone this github repository**
+**Clone this GitHub repository**
 
 ```bash
   (base)$: git clone https://github.com/Pramit726/CompreHive.git
@@ -92,30 +106,29 @@ As soon as you run the script, a local Streamlit server will spin up, and your a
 
 Or you can navigate to ``http://localhost:8501.``
 
-
 ## Deployment on AWS
 
-**Step 1 :**
+**Step 1**
 
 First login to the AWS: https://aws.amazon.com/console/
 
-**Step 2 :**
+**Step 2**
 
 Search about EC2 in the services section.
 
-**Step 3 :**
+**Step 3**
 
-Configure the UBUNTU machine.
+Configure the Ubuntu machine.
 
-**Step 4 :**
+**Step 4**
 
 Launch the instance.
 
-**Step 5:**
+**Step 5**
 
 Do the port mapping to this port: 8501
 
-**Step 6:**
+**Step 6**
 
 Run the following commands
 
@@ -170,8 +183,9 @@ pip3 install -r requirements.txt
 
 - Copy API keys and paste it
 
-- Press : ,then wq! and hit enter
+- Press : , then wq! and hit enter
 
+**Step 7**
 ```bash
 #Temporary running
 python3 -m streamlit run app.py
@@ -182,8 +196,6 @@ python3 -m streamlit run app.py
 nohup python3 -m streamlit run app.py
 ```
 
-Note: Streamlit runs on this port: 8501
-
 ## Dependencies
 
 - langchain-core
@@ -191,6 +203,14 @@ Note: Streamlit runs on this port: 8501
 - python-dotenv
 - reportlab
 - streamlit
+
+## Author
+
+ **[Pramit De](https://github.com/Pramit726)**  
+ - pramitde726@gmail.com / pramit.de.cse.2021@tint.edu.in 
+
+- Department of CSE, Techno International New Town, West Bengal, India 
+© 2024 CompreHive by Pramit De 
 
 
 
