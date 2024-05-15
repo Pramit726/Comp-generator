@@ -16,6 +16,16 @@
   </p>
 </div>
 
+## Table of Contents
+
+1. [Project Overview](#project-overview)
+2. [Project Demo](#project-demo)
+3. [Required API Keys](#required-api-keys)
+4. [Project Setup](#project-setup)
+5. [Deployment on AWS](#deployment-on-aws)
+6. [Dependencies](#dependencies)
+7. [Author](#author)
+
 
 ## Project Overview
 
