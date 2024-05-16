@@ -74,7 +74,12 @@ https://github.com/Pramit726/CompreHive/assets/149934842/5dea4867-17dd-4d1f-842b
 This project requires two API keys:
 
 - **Google API key:** Required for accessing the GEMINI 1.5 Pro model.
-- **LangChain API key:** Required for LangSmith tracking.
+- **LangChain API key:** Required for LangSmith tracking. LangSmith enable usage tracking and gain valuable insights into user behavior with LangSmith integration. The screenshot below showcases a sample view of CompreHive usage data within LangSmith.
+
+<!-- !![Screenshot 2024-05-16 101226](https://github.com/Pramit726/CompreHive/assets/149934842/7e25da75-2c49-4f7c-a78e-6a484748aca3)--> 
+
+<img src="https://github.com/Pramit726/CompreHive/assets/149934842/7e25da75-2c49-4f7c-a78e-6a484748aca3" alt="Text-screenshot" width="1089" height="500">
+
 
 Ensure that you obtain these API keys before running the project.
 
