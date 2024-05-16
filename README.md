@@ -154,7 +154,7 @@ Do the port mapping to this port: 8501
 
 **Step 6**
 
-Run the following commands
+Run the following commands.
 
 ```bash
 sudo apt update
@@ -199,7 +199,7 @@ pip3 install -r requirements.txt
 
 **If you want to add the API keys**
 
-- Create .env file in the AWS server using  touch .env.
+- Create .env file in the AWS server using  touch .env
 
 - Next write vi .env
 
