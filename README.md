@@ -78,8 +78,9 @@ This project requires two API keys:
 
 <!-- !![Screenshot 2024-05-16 101226](https://github.com/Pramit726/CompreHive/assets/149934842/7e25da75-2c49-4f7c-a78e-6a484748aca3)--> 
 
-<img src="https://github.com/Pramit726/CompreHive/assets/149934842/7e25da75-2c49-4f7c-a78e-6a484748aca3" alt="Text-screenshot" width="1089" height="500">
-
+<img src="https://github.com/Pramit726/CompreHive/assets/149934842/7e25da75-2c49-4f7c-a78e-6a484748aca3" alt="Text-screenshot" width="1742" height="800">
+<br/>
+<br/>
 
 Ensure that you obtain these API keys before running the project.
 
