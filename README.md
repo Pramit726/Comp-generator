@@ -84,13 +84,13 @@ Ensure that you obtain these API keys before running the project.
 **Clone this GitHub repository**
 
 ```bash
-  (base)$: git clone https://github.com/Pramit726/CompreHive.git
+(base)$: git clone https://github.com/Pramit726/CompreHive.git
 ```
 
 **Go to the project directory**
 
 ```bash
-  (base)$: cd CompreHive
+(base)$: cd CompreHive
 ```
 
 **Configure environment**
